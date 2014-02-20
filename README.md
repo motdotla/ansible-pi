@@ -1,8 +1,6 @@
-# binto-ansible
+# ansible-pi
 
-![](https://raw2.github.com/riversideio/binto-api/master/binto.jpg)
-
-Run binto-access on your Raspberry Pi.
+Quickly setup your Raspberry Pi.
 
 ## Installation
 
