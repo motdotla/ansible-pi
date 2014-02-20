@@ -8,3 +8,6 @@
 - name: 'Upgrade APT to the lastest packages'
   action: apt upgrade=safe
 
+- name: 'Reboot'
+  command: /sbin/reboot -t now
+
