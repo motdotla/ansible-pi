@@ -1,0 +1,9 @@
+---
+
+- name: Ansible Playbook for configuring brand new Raspberry Pi
+
+  hosts: webservers
+  roles:
+    - binto
+  remote_user: pi
+  sudo: yes
