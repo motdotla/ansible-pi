@@ -2,5 +2,3 @@
 - name: 'Configure WIFI'
   copy: src=./wpa_supplicant.conf dest=/etc/wpa_supplicant/wpa_supplicant.conf mode=0600
 
-#- name: 'Change pi password - THIS DOES NOT WORK AS EXPECTED BECAUSE YOU NEED TO ENCRYPT YOUR PASSWORD FIRST. DOES NOT DO IT FOR YOU.'
-#  action: user name=pi password={{ pi_password }}
