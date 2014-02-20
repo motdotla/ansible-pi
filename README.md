@@ -1,5 +1,7 @@
 # ansible-pi
 
+![](https://raw.github.com/scottmotte/ansible-pi/master/ansible-pi.jpg)
+
 Quickly setup your Raspberry Pi - particularly WIFI settings.
 
 ## Installation
