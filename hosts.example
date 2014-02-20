@@ -1,2 +1,2 @@
 [webservers]
-192.168.1.200 ansible_ssh_user=pi
+192.168.1.200
