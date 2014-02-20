@@ -6,7 +6,7 @@ Quickly setup your Raspberry Pi - particularly WIFI settings.
 
 ## Installation
 
-1. Clone and setup the app. 
+Clone and setup the ansible script. 
 
 ```
 git clone https://github.com/scottmotte/ansible-pi.git
@@ -15,9 +15,9 @@ cp hosts.example hosts
 cp wpa_supplicant.conf.example wpa_supplicant.conf
 ```
 
-2. Edit the `wpa_supplicant.conf` and `hosts` files.
+Edit the `wpa_supplicant.conf` and `hosts` files.
 
-3. Deploy using [ansible](http://www.ansibleworks.com). (install instructions for ansible are in [requirements](#requirements) below.
+Deploy using [ansible](http://www.ansibleworks.com). (install instructions for ansible are in [requirements](#requirements) below.
 
 ```
 ansible-playbook playbook.yml -i hosts --ask-pass --sudo -c paramiko
