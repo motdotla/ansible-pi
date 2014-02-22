@@ -4,6 +4,6 @@
 
   hosts: webservers
   roles:
-    - binto
+    - pi
   remote_user: pi
   sudo: yes
