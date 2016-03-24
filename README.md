@@ -1,6 +1,6 @@
 # ansible-pi
 
-![](https://raw.github.com/scottmotte/ansible-pi/master/ansible-pi.jpg)
+![](https://raw.github.com/motdotla/ansible-pi/master/ansible-pi.jpg)
 
 Quickly setup your Raspberry Pi - particularly WIFI settings.
 
@@ -11,7 +11,7 @@ There is a [complete guide to setting up your raspberry pi without a keyboard an
 Clone and setup the ansible script. 
 
 ```
-git clone https://github.com/scottmotte/ansible-pi.git
+git clone https://github.com/motdotla/ansible-pi.git
 cd ansible-pi
 cp hosts.example hosts
 cp wpa_supplicant.conf.example wpa_supplicant.conf
@@ -19,7 +19,7 @@ cp wpa_supplicant.conf.example wpa_supplicant.conf
 
 Edit the `wpa_supplicant.conf` and `hosts` files.
 
-Deploy using [ansible](http://www.ansibleworks.com). (install instructions for ansible are in [requirements](#requirements) below.
+Deploy using [ansible](http://www.ansibleworks.com) (install instructions for ansible are in [requirements](#requirements) below).
 
 ```
 ansible-playbook playbook.yml -i hosts --ask-pass --sudo -c paramiko
