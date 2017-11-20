@@ -1,3 +1,5 @@
+[![Donate](http://www.opensourcecitizen.org/badge)](http://www.opensourcecitizen.org/project?url=github.com/motdotla/ansible-pi)
+
 # ansible-pi
 
 ![](https://raw.github.com/motdotla/ansible-pi/master/ansible-pi.jpg)
