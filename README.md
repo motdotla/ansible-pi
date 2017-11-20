@@ -1,5 +1,7 @@
 [![Donate](http://www.opensourcecitizen.org/badge)](http://www.opensourcecitizen.org/project?url=github.com/motdotla/ansible-pi)
 
+If you found this library useful, donate some CPU cycles to this project by clicking above. Thank you! 😇
+
 # ansible-pi
 
 ![](https://raw.github.com/motdotla/ansible-pi/master/ansible-pi.jpg)
